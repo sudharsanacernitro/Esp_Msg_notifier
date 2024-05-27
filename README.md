@@ -1,9 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Notification Alert System</title>
+ 
 </head>
 <body>
     <h1>Notification Alert System</h1>
@@ -26,13 +24,13 @@
     </ul><br>
     <h2>Installation</h2><br>
     <ol>
-        <li>Clone the repository: <code>git clone https://github.com/yourusername/notification-alert-system.git</code></li>
+        <li>Clone the repository: <code>git clone https://github.com/sudharsanacernitro/Esp_Msg_notifier.git</code></li>
         <li>Install the required Python libraries: <code>pip install -r requirements.txt</code></li>
         <li>Upload the provided code to the ESP module using the Arduino IDE or any other compatible platform.</li>
     </ol><br>
     <h2>Usage</h2><br>
     <p>Run the Python script to send notifications to the ESP module:</p>
-    <pre><code>python push_notification.py "Your message here"</code></pre>
+    <pre><code>python get_notification.py</code></pre>
     <p>The ESP module will receive the notification and display the message on the connected LCD screen.</p><br>
     <h2>Contributing</h2>
     <p>Contributions are welcome! Please fork the repository and create a pull request with your changes.</p><br>
